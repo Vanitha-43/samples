@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html >
+<style type="text/css">
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  #h{
+     letter-spacing: 1px;
+
+margin-top: 100px;
+margin-left: 70px;
+margin-right: 90px;
+height: 70%;
+width: 65%;
+align-content: center;
+
+padding: 20px;
+        }
+        #submit{
+          text-align: center;
+          align-content: center;
+          color: white;
+          width: 400px;
+          border-radius: 12px;
+        }
+
+
+
+
+        .grid-container{
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    height: 400px;
+    align-content: center;
+
+
+    grid-template-columns: auto auto auto;
+
+    background-image: url('bac.jpg');
+    background-size:cover;
+  }
+
+
+.g1{
+  text-align: center;
+color: white;
+}
+ .h
+    {
+      width: 180px;
+      height: 30px;
+     }
+
+
+
+    label{
+
+      width: 150px;
+      height: 10px;
+      padding: 25px;
+      display: inline-block;
+
+    }
+    #form{
+
+margin: auto;
+width: 30%;
+background:cyan;
+padding: 20px;
+        }
+        #submit1{
+          margin-left: 200px;font-size: 130%;        }
+#reset{
+  margin-left: 20px;
+  font-size: 130%;
+}
+
+.demo{
+  background-color: red;
+}
+
+
+
+
+
+.grid-container1{
+    margin-right: 10px;
+    margin: auto;
+    width: 60%;
+    display: grid;
+    height: 400px;
+    align-content: center;
+    font-size: 20px;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .g3{
+    text-align: center;
+
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+  .g2{
+    color: ghostwhite;
+    background-color: deeppink ;
+    text-align: center;
+  }
+  #submit2{
+     background-color: balck;
+    width: 70%;
+    border-radius: 12px;
+    color: ghostwhite;
+    padding: 15px;
+  }
+  #submit3{
+border-radius: 12px;
+width: 70%;
+
+    border-color: ghostwhite;
+    color: deeppink;
+    padding: 15px;
+}
+
+footer{
+
+      color: white;
+      width: 100%;
+    }
+    .container-fluid1{
+      border-width: 1PX;
+      border: 1PX SOLID ;
+      border-color: lightgrey ;
+    }
+    .underline-small{
+      position: relative;
+    }
+    .underline-small::after{
+      content: '';
+      height: 2px;
+      width: 10%;
+      background: white;
+      position: absolute;
+      left: 0;
+       bottom: 0;
+    }
+    th, td {
+  border: 1px solid ghostwhite;
+
+
+
+}
+table{
+  border-radius: 6px;
+  border: 1px  solid mediumturquoise;
+
+}
+th {
+  background-color: #53ab9a;
+}
+tr:nth-child(odd){
+  background-color: #e6ffff;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+
+  C /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+  height: 50px;
+  color: greenyellow;
+  margin-left: 40%;
+  padding-top: 20px;
+  color: green;
+}
+
+/* The Close Button */
+.clos {
+
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 20px;
+
+}
+
+.clos:hover,
+.clos:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+
+
+</style>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" ></script>
+
+</head>
+
+
+<body>
+
+
+  <div class="container-fluid" >
+
+  <div class="row">
+    <div class="col-sm-6" style="margin-top:15px">
+      <a target="_blank" href="C:\Users\ADMINE\Desktop\go.png">
+      <img src="C:\Users\ADMINE\Desktop\go.png" alt="twitter" width="80" height="30"></a><br>
+
+
+    </div>
+    <div class="col-sm-1">
+    </div>
+
+    <div class="col-sm-5"   >
+
+
+      <ul class="nav navbar-nav" style=" text-align: left; margin-right: auto; display: flex;">
+        <li style="text-align:right;"><a href="#">Home</a> </li>
+        <li style="text-align:right;"><a href="#">Product</a> </li>
+        <li style="text-align:right;"><a href="#">career</a> </li>
+
+        <li style="text-align:right;"><a href="#">Gallery</a> </li>
+        <li style="text-align:right;"><a href="#">contact</a> </li>
+        <li style="text-align:right;"><a href="#">About</a> </li>
+        <li style="text-align:right;"><a href="#">Feedback</a> </li>
+      </ul><br>
+    </div>
+
+
+<div class="grid-container">
+  <div class="g" style="margin: auto;"><br>
+    <a target="_blank" href="C:\Users\ADMINE\Desktop\shoe.png">
+      <img src="C:\Users\ADMINE\Desktop\shoe.png" alt="twitter" width="300" height="150"></a><br>
+
+  </div>
+  <div class="g1" >
+    <h2>UPTO</h2>
+    <h1><b>50% OFF</b></h1>
+    <h3>OFFER ENDS IN AFTER 5 </h3>
+    <h3>DAYS</h3><br>
+    <input type="submit"  onclick="myfun()" id="ss" style="background-color: white; color:darkblue; font-size: medium; padding-left: 10px;padding-right:10px; padding-top: 10px;font-weight: bold;
+    padding-bottom: 10px;" name="VIEW OFFER" value="VIEW OFFER"></button>
+    </div>
+
+
+
+    <script>
+    function myfun(){
+
+   const element = document.getElementById("form");
+  element.scrollIntoView();
+  document.getElementById("form").style.backgroundColor = "pink";
+  }
+
+
+
+   function submitClick() {
+
+         var x= document.getElementById("fnam").value;
+      if(x == "")
+        document.getElementById("q").style.display = "block";
+      else
+        document.getElementById("q").style.display = "none";
+
+var y= document.getElementById("StartDate").value;
+      if(y == "")
+        document.getElementById("q1").style.display = "block";
+      else
+        document.getElementById("q1").style.display = "none";
+
+      var z= document.getElementById("EndDate").value;
+      if(z == "")
+        document.getElementById("q2").style.display = "block";
+      else
+        document.getElementById("q2").style.display = "none";
+
+      var w= document.getElementById("des").value;
+      if(w == "")
+        document.getElementById("q3").style.display = "block";
+      else
+        document.getElementById("q3").style.display = "none";
+
+      var l= document.getElementById("nu").value;
+      if(l== "")
+        document.getElementById("q6").style.display = "block";
+      else
+     document.getElementById("q6").style.display = "none";
+
+const numb=["6000000000","6666666666","7777777777","8888888888","9999999999",
+      "9000000000","1400000000"];
+
+console.log(numb);
+      var i=document.getElementById('nu').value;
+
+if(i.length<10){
+  alert("enter valid format");
+}
+if(i.length>10){
+  alert("enter valid number")
+}
+  if(isNaN(i)) {
+    alert(" enter only numbers")
+  }
+  if(i.length==10) {
+
+var include=numb.includes(i);
+
+        console.log(include);
+        if(include==true)
+        {
+
+          alert("enter valid phone number");
+        }
+
+      else{
+        console.log("valid");
+        var s= "valid";
+      }
+
+}
+      var v= document.getElementById("va").value;
+
+      if(v == "select")
+        document.getElementById("q4").style.display = "block";
+      else
+        document.getElementById("q4").style.display = "none";
+
+      var valid = false;
+      var g = document.myform.Priority;
+      for( var b=0;b<g.length;b++){
+        if(g[b].checked){
+          valid = true;
+          break;
+
+        }
+      }
+
+if(valid)
+{
+   document.getElementById("q5").style.display = "none";
+}
+else
+{
+   document.getElementById("q5").style.display = "block";
+}
+
+
+
+if(( x!= "")&& (y!="")&& (z!="")&& (w!="")&& (v!="") &&(s=="valid"))
+{
+
+document.getElementById("myModal").style.display='block';
+ var modal = document.getElementById("myModal");
+ var c = document.getElementsByClassName("clos")[0];
+ c.onclick = function() {
+  modal.style.display = "none";
+
+}
+
+
+      }
+
+
+else
+{
+  console.log("error")
+
+}
+
+}
+
+
+
+
+
+
+   function vals(){
+
+
+  var x= document.getElementById("fnam").value;
+      if(x == "")
+        document.getElementById("q").style.display = "block";
+      else
+        document.getElementById("q").style.display = "none";
+
+var y= document.getElementById("StartDate").value;
+      if(y == "")
+        document.getElementById("q1").style.display = "block";
+      else
+        document.getElementById("q1").style.display = "none";
+
+      var z= document.getElementById("EndDate").value;
+      if(z == "")
+        document.getElementById("q2").style.display = "block";
+      else
+        document.getElementById("q2").style.display = "none";
+
+      var w= document.getElementById("des").value;
+      if(w == "")
+        document.getElementById("q3").style.display = "block";
+      else
+        document.getElementById("q3").style.display = "none";
+
+
+      var l= document.getElementById("nu").value;
+      if(l== "")
+        document.getElementById("q6").style.display = "block";
+      else
+        document.getElementById("q6").style.display = "none";
+
+      var v= document.getElementById("va").value;
+
+      if(v == "select")
+        document.getElementById("q4").style.display = "block";
+      else
+        document.getElementById("q4").style.display = "none";
+
+
+
+
+      var valid = false;
+      var g = document.myform.Priority;
+      for( var b=0;b<g.length;b++){
+      if(g[b].checked){
+          valid = true;
+          break;
+
+        }
+      }
+
+if(valid)
+{
+   document.getElementById("q5").style.display = "none";
+}
+else
+{
+   document.getElementById("q5").style.display = "block";
+}
+
+   }
+
+
+
+  </script>
+
+  <div class="g" style="margin:auto;"><br>
+    <a target="_blank" href="C:\Users\ADMINE\Desktop\back.jpg">
+      <img src="C:\Users\ADMINE\Desktop\back.jpg"  width="300" ></a><br>
+
+
+       </div>
+     </div>
+
+<div class="container-fluid" style=" display:flex;" >
+
+     <div class="col-sm-6" style="margin-top:70px; margin-left20px">
+
+      <img src="C:\Users\ADMINE\Desktop\B.png" class="img-responsive" width="80%" height="20%">
+
+    </div>
+
+    <div class="col-sm-6"  >
+
+
+
+<form>
+  <div id="h">
+      <div class="container-fluid" style="margin-top: 60px;">
+        <h1><b> Landing Page Header Template</b></h1><br>
+        <p>Get best HTML design templates ard wordpress design templates. we always give best service for use.
+
+        </p><br>
+        <br>
+
+        <input type="email" style="width: 400px; height: 32px; margin-left: 30px;" name="Email Address" placeholder="Email Address"><br><br>
+
+        <input type="password"   style="width: 400px ;height: 32px;  margin-left: 30px" name="password" placeholder="Password"><br><br>
+        <input id="submit" style="background-color: royalblue; width: 30%; margin-left: 10%; "  type="submit" name="Login Now"  value="Login Now"> <br><br>
+        <div class="e" style="display: flex; margin-top: 10px">
+        <input type="checkbox"  name="sub" value="sub" style="width:15px; ;" >
+  <p for="sub" style="font-size: 14px; width: fit-content; margin-top:18px; margin-left:" > I agree to Terms & Conditions</p><br>
+        </div>
+      </div></div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+  </div>
+</div>
+
+
+
+<div id="form" style="margin-bottom: 50px; width: 500px;">
+
+<form  name="myform"  >
+  <label style="font-size: 20px; width:40%;" ><b>Project Name</b></label>
+  <input class="h" type="text"  name="fnam"  id="fnam"   placeholder="project name"  oninput="vals()"><br>
+  <p id="q" style="display:none; color: red;">enter ur project name</p>
+
+   <label style="font-size: 18px; width: 40%;"  for="phone" ><b>Phone number</b></label>
+  <input type="text"   class="h" id="nu"  name="phone"  oninput="vals()" placeholder="enter 10 digit number" ><br>
+  <p id="q6" style="display: none ; color: red;">enter ur phone number   </p>
+
+  <label  style="font-size: 20px;width:40%;" ><b>Assigned to</b> </label>
+  <select  class="h" id="va"  name="assigned" oninput="vals()">
+    <option class="h"  name="assigned"  value="select">
+
+    </option>
+    <option class="h"  name="assigned"  value="Er Merry Petision">
+      Er Merry Petision
+    </option>
+    <option class="h"  name="assigned" value="hhhh">
+      hhhh
+    </option>
+  </select>
+   <p id="q4" style="display:none;color: red;"> choose from option</p>
+  <br>
+
+
+    <label style="font-size: 20px;width: 40%;" for="Start Date"><b>Start Date</b> </label>
+  <input class="h" type="date" id="StartDate" name="Start Date" oninput="vals()" ><br>
+   <p id="q1" style="display:none;color: red;">enter start date</p>
+
+    <label style="font-size: 20px;width: 40%;" for="End Date"><b>End Date </b></label>
+  <input class="h" type="date" id="EndDate" name="End Date" oninput="vals()"><br>
+   <p id="q2" style="display:none;color: red;">enter end date</p>
+
+ <label style="font-size: 20px; width: 40%;"> <b>Priority</b> </label>
+
+ <input  style="padding-left:3px" type="radio" name="Priority" value="High" oninput="vals()"><b>High</b>
+ <input  type="radio" name="Priority" id="val" value="Average" oninput="vals()"><b>Average</b>
+ <input type="radio" name="Priority"  id="val" value="Low" oninput="vals()"><b>Low</b>
+ <p id="q5" style="display:none;color: red;"> choose priority</p>
+<br>
+<label style="font-size: 20px; width: 40%;"><b>Description</b></label>
+<textarea name="Description"  id="des" cols="30" rows="3"oninput="vals()"></textarea><br>
+ <p id="q3" style="display:none;color: red;">enter description</p>
+
+
+  <input id="submit1"
+   style="background-color: green;"   type="button"    value="Submit"  onclick="submitClick()">
+   <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content" style="height:70px">
+    <span  id="closs " class="clos" style="height: 40%"  >&times;</span>
+    <p  style="padding-top: 10px;">submitted sucessfully</p>
+  </div>
+
+</div>
+
+  <input  id="reset"
+   style="background-color: slateblue;" type="reset"  name="clear"  value=" clear" >
+
+   </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width:100%; margin-bottom:50px; size: 100px;">
+  <tr>
+    <th style="color: white; text-align: center;">Main driver</th>
+    <th style="padding-left: 5px; color: white;">First name</th>
+    <th style="padding-left: 5px; color: white;">Surname</th>
+    <th style="padding-left: 5px; color: white;">Date of birth</th>
+    <th style="padding-left: 5px; color: white;">Relationship</th>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><input type="radio" name="check" ></td>
+    <td style="padding-left: 5px;">Steve</td>
+    <td style="padding-left: 5px;">Foo</td>
+    <td style="padding-left: 5px;">01/01/1978</td>
+    <td style="padding-left: 5px;">Policyholder</td>
+  </tr>
+  <tr>
+   <td style="text-align: center;"><input type="radio" name="check" ></td>
+    <td style="padding-left: 5px;">steffie</td>
+    <td style="padding-left: 5px;">Foo</td>
+    <td style="padding-left: 5px;">01/01/1978</td>
+    <td style="padding-left: 5px;">Spouse</td>
+  </tr>
+  <tr>
+   <td style="text-align: center;"><input type="radio" name="check" ></td>
+    <td style="padding-left: 5px;">Stan</td>
+    <td style="padding-left: 5px;">Foo</td>
+    <td style="padding-left: 5px;">01/01/1994</td>
+    <td style="padding-left: 5px;">Son</td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><input type="radio" name="check" ></td>
+    <td style="padding-left: 5px;">Stella</td>
+    <td style="padding-left: 5px;">Foo</td>
+    <td style="padding-left: 5px;">01/01/199</td>
+    <td style="padding-left: 5px;">Daughter</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+<div class="grid-container1" style="margin-bottom:50px">
+  <div class="g3"><br>
+    <a target="_blank" href="C:\Users\ADMINE\Desktop\twitter.jpg">
+      <img src="C:\Users\ADMINE\Desktop\twitter.jpg" alt="twitter" width="100" height="70"></a><br>
+      <h2><b>TWITTER</b></h2>
+      <p >  Lorem ipsum dolor sit amet,<br>
+      consectetur adipisicing elit.<br>
+    Expedita ullam aliquid non <br>eligendi, nemo est neque<br>reiciendis error?</p><br>
+    <input id="submit2"
+   style="background-color: black ;"  type="submit" name="Read More" value="Read More" ><br>
+
+ </div>
+  <div class="g2">
+    <div class="g2"><br>
+    <a target="_blank" href="C:\Users\ADMINE\Desktop\insta.png">
+      <img src="C:\Users\ADMINE\Desktop\insta.png" alt="Instagram" width="100" height="70"></a><br>
+      <h2><b>INSTAGRAM</b></h2>
+      <p >  Lorem ipsum dolor sit amet,<br>
+      consectetur adipisicing elit.<br>
+    Expedita ullam aliquid non <br>eligendi, nemo est neque<br>reiciendis error?</p><br>
+
+      <input id="submit3"
+   style="background-color: ghostwhite ;"  type="submit" name="Read More" value="Read More" ><br>
+      <p>
+  </div></div>
+
+  <div class="g3"><br>
+    <a target="_blank" href="C:\Users\ADMINE\Desktop\youtube.png">
+      <img src="C:\Users\ADMINE\Desktop\youtube.png" alt="youtube" width="100" height="70" ></a><br>
+      <h2><b>YOUTUBE</b></h2>
+      <p >  Lorem ipsum dolor sit amet,<br>
+      consectetur adipisicing elit.<br>
+    Expedita ullam aliquid non <br>eligendi, nemo est neque<br>reiciendis error?</p><br>
+      <input id="submit2"
+   style="background-color: black ;"  type="submit" name="Read More" value="Read More" ><br>
+       </div>
+       </div>
+</body>
+
+
+
+
+<footer>
+
+<div class="container-fluid1" style="margin-top: 30px;"  >
+
+  <div class="row" style="width:103%; padding-top: 10px; padding-left: 40px  ;background-color:darkblue;" >
+    <div class="col-md-8" style="font-family: ui-sans-serif;
+    FONT-STYLE: OBLIQUE;"  ;><H3>CodingLab</H3></div>
+
+    <div class="col-md-4" ;>
+      <a target="_blank" href="C:\Users\ADMINE\Desktop\facebook.png">
+      <img src="C:\Users\ADMINE\Desktop\facebook.png" width="50px" height="30px"></a>
+
+      <a target="_blank" href="C:\Users\ADMINE\Desktop\t.png">
+      <img src="C:\Users\ADMINE\Desktop\t.png" width="50px" height="30px"></a>
+
+      <a target="_blank" href="C:\Users\ADMINE\Desktop\i.png">
+      <img src="C:\Users\ADMINE\Desktop\i.png" width="50px" height="30px"></a>
+
+      <a target="_blank" href="C:\Users\ADMINE\Desktop\l.png">
+      <img src="C:\Users\ADMINE\Desktop\l.png" width="50px" height="30px"></a>
+
+      <a target="_blank" href="C:\Users\ADMINE\Desktop\y.png">
+      <img src="C:\Users\ADMINE\Desktop\y.png" width="50px" height="30px"></a>
+    </div>
+    </div>
+
+</div>
+
+   <div class="row" style="width:102%;  padding-top: 10px;  background-color: darkblue; height: 180px; padding-top:20PX;
+   padding-left: 60px;">
+  <div class="col-md-2"  ;>
+    <h6 class="underline-small"> Company</h6>
+   <p style="color: #c2b7b7;"> Home<br>
+    Contact us<br>
+    About us<br>
+    Get started<br></p>
+
+  </div>
+    <div class="col-md-2" ;>
+      <h6 class="underline-small"> Service</h6>
+
+    <p style="color:#c2b7b7">App design<br>
+      Web design<br>
+      Logo design<br>
+      Banner design<br>
+    </div>
+    <div class="col-md-2">
+      <h6 class="underline-small"> Account</h6>
+      <p style="color:#c2b7b7" >Profile<br>
+         My account<br>
+      Preferences<br>
+      Purchase<br></p>
+    </div>
+    <div class="col-md-2">
+      <h6 class="underline-small">Courses</h6>
+     <p style="color:#c2b7b7"> HTML & CSS<br>
+      JavaScript<br>
+      Photography<br>
+      Photoshop<br></p>
+    </div>
+    <div class="col-md-4" style="line-height: 6px;">
+      <h6 class="underline-small"> Subscribe</h6>
+      <input type="text" name="email" value= "Enter your email" style="border-color: white; background-color:darkblue; color: #c2b7b7 ; width:260px; height: 35px;border-radius: 4px;"><br><br>
+
+      <input type="submit" name="SUBMIT" value="Subscribe"style="align-content: center; width:260px; height:35px; border-radius: 4px; color: blue;" >
+    </div>
+</div>
+
+     <div class="row" style="width:102%;  padding-top: 10px; padding-left:40px ; background-color:#0f0c5d; font-size: 12px;  height: 40px; color: #c2b7b7;">
+  <div class="col-md-4" style="text-align: left;padding-left: 30px"  ;> Copyright &copy 2021 <i>codinglab .</i> &nbsp;&nbsp;  All rights reserved</div>
+   <div class="col-md-4"  ;> </div>
+       <div class="col-md-4" style="padding-left: 60px; text-align: left;" ;> Privacy policy &nbsp;&nbsp; Terms & conditions</div>
+
+
+</div>
+
+
+</footer>
+</html>
+
+ 
